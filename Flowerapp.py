@@ -12,9 +12,9 @@ with open('scaler.pkl', 'rb') as scaler_file:
 # Species label mapping
 species_map = {0: 'Setosa', 1: 'Versicolor', 2: 'Virginica'}
 
-# Streamlit UI
-st.title("Flower Classification")
-st.write("Enter flower dimensions to predict the species.")
+# Streamlit
+st.title("🌸 Bloom Identifier: Unlock the Secrets of Your Flower!")
+st.write("Enter the petal and sepal dimensions, and let us reveal the species of your flower with precision and accuracy!")
 
 # User inputs
 sepal_length = st.number_input("Sepal Length (cm)", min_value=0.0, format="%.2f")
